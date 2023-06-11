@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* background-color: rgb(237, 26, 163); */
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    text-align: center; 
+    height: 100vh;
+    gap: 25px;
+}
+
+.container > img{
+    height: 700px;
+    position: relative;
+    top: 30px;
+    width: 550px;
+
+}
+
+.center {
+    box-sizing: border-box;
+    top: 40px;
+    width: 400px;
+    height: 450px;
+    position: relative;
+    background-color: white;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 3px;
+}
+
+.logo>img {
+    width: 230px;
+    height: 140px;
+}
+
+.username {
+    width: 320px;
+    height: 25px;
+    padding: 8px;
+    font-size: 13px;
+    position: relative;
+}
+.password{
+    width: 320px;
+    height: 25px;
+    padding: 8px;
+    font-size: 13px;
+    position: relative;
+    top: 8px;
+    outline: 2px;
+}
+
+.login{
+    width: 346px;
+    height: 39px;
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+    background-color: rgb(80, 158, 231);
+    top: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.line{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.arrow{
+    background-color: grey;
+    height: 1px;
+    width: 140px;
+    position: relative;
+    top: 10px;
+}
+
+.text{
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 3px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.connect_to_facebook{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+}
+
+
+
+.logooffacebook>img{
+    height: 26px;
+    width: 26px;
+}
+
+.connect_to_facebook > span {
+    color: #385185;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 2px 5px;
+}
+.center > span{
+    font-size: 15px;
+    position: relative;
+    top: 75px;
+    color: rgb(36, 36, 45);
+}
+
+.bottomlast{
+    box-sizing: border-box;
+    top: 55px;
+    width: 400px;
+    height: 69px;
+    position: relative;
+    background-color: white;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 3px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.bottomlast > div{
+    font-size: 18px;
+    position: relative;
+    top: 21px;
+}
+.bottomlast > span{
+    color: blue;
+    font-size: 18px;
+    position: relative;
+    top: 21px;
+}
+.main > span{
+    position: relative;
+    top: 75px;
+    font-size: 20px;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 108px;
+    gap: 20px;
+}
+.google{
+    background-color: black;
+    position: relative;
+    left: 2px;
+    height: 50px;
+    width: 155px;
+    border-radius: 7px;
+}
+
+
+.microsoft{
+    background-color: black;
+    position: relative;
+    right: 2px;
+    height: 50px;
+    width: 155px;
+    border-radius: 7px;
+}
+
+.image{
+    width: 37px;
+    height: 37px;
+    position: relative;
+    top: 7px;
+    left: -50px;
+}
+
+.apptext{
+    color: white;
+    position: relative;
+    bottom: 35px;
+    font-size: 11px;
+    right: -12px;
+}
+.google>span, .microsoft>span{
+    color: white;
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+    right: -21px;
+}
+
+#footerone{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    margin: -18px 0px;
+}
+
+.footertext{
+    color: rgb(155, 149, 149);
+    font-size: 15px;
+}
